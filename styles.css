@@ -159,7 +159,9 @@
 
   /* Carrito de compras */
 
-  .product-detail {
+  /* Aside (product detail y carrito) */
+
+  aside {
     background-color: var(--white);
     width: 360px;
     padding: 0 24px;
@@ -167,6 +169,9 @@
     position: absolute;
     right: 0;
   }
+
+  /* shopping Cart */
+
   .title-container {
     display: flex;
   }
@@ -235,6 +240,10 @@
     height: 50px;
   }
 
+  /* Product Detail */
+
+  
+
   /* Productos */
 
   .cards-container {
@@ -294,7 +303,7 @@
     .desktop-menu{
       display: none;
     }
-    .product-detail {
+    aside {
       width: 100%;
     }
     .cards-container {
